@@ -1,0 +1,32 @@
+{
+  "name": "hagglex",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.31",
+    "core-js": "^3.6.5",
+    "node-hot-loader": "^1.20.0",
+    "nuxt": "^2.14.6",
+    "vue-phone-number-input": "^1.1.10"
+  },
+  "devDependencies": {
+    "@fortawesome/free-brands-svg-icons": "^5.15.0",
+    "@fortawesome/free-solid-svg-icons": "^5.15.0",
+    "@nuxtjs/fontawesome": "^1.1.2",
+    "@nuxtjs/style-resources": "^1.0.0",
+    "@vue/test-utils": "^1.1.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^26.3.0",
+    "jest": "^26.4.2",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^10.0.2",
+    "vue-jest": "^3.0.4"
+  }
+}
